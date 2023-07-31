@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;400;600&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600&family=Pacifico&family=Righteous&family=Roboto+Mono:ital,wght@0,200;0,300;0,500;1,400&family=Titillium+Web:wght@200;300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container py-5 text-center">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="item w-75 mx-auto p-5">
+                    <h1 class="text-center">Smart Login System</h1>
+                    <form>
+                        <input id="nameReg" class="form-control  mb-3 mt-4 bg-transparent" type="text" placeholder="Enter Your Name" aria-label=".form-control-lg example">
+                        <div class=" one alert alert-danger d-none">
+                            you must enter name
+                        </div>
+
+                    <input id="emailReg" class="form-control  bg-transparent mb-3" type="email" placeholder="Enter Your Email" aria-label=".form-control-lg example">
+                    <div class=" two alert alert-danger d-none">
+                        you must enter valid email
+                    </div>
+                    <input id="passReg" class="form-control  bg-transparent  mb-3" type="password" placeholder="Enter Your Password" aria-label=".form-control-lg example">
+                    <div class=" three alert alert-danger d-none">
+                        you must enter valid password
+                    </div>
+                    <a href="#" id="signup" class="btn form-control btn-outline-info mb-3 mt-4">Sign Up</a>
+                    <div class="link text-light">
+                        <span>You have an account?</span>
+                        <a class="text-decoration-none text-light" href="index.html">Sign In</a>
+                    </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="layer">
+        <div class="box alert alert-danger">
+            <div class="head">
+                <div class="color">
+                    <span class="red"></span>
+                     <span class="yellow"></span>
+                     <span class="green"></span>
+                </div>
+                <i class="fa-solid fa-x closeEl"></i>
+            </div>
+            <div class="content">
+                <p class="fs-5 fw-bold"> Enter valid Name</p>
+                <p class="fs-5 fw-bold">Enter valid Email Contain @</p>
+                <p class="fs-5 fw-bold">Enter valid Password</p>
+            </div>
+        </div>
+    </div>
+
+
+   <script src="js/bootstrap.bundle.min.js"></script> 
+   <script src="js/main.js"></script>
+</body>
+</html>

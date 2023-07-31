@@ -1,0 +1,99 @@
+*{
+box-sizing: border-box;
+}
+
+body{
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Righteous', cursive;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Titillium Web', sans-serif;
+
+    background-color: #24353F;
+    
+}
+input{color: rgba(255, 255, 255, 0.774) !important;}
+.item{
+    background-color: #24353F;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+h1{
+    color: #17A2B8;
+}
+input::placeholder {
+    color: rgba(255, 255, 255, 0.61) !important;
+    
+    }
+    .link a:hover{
+        border-bottom: white 1px solid ;
+    }
+  .layer{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.521);
+    z-index: 1111;
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .box{
+    width: 30%;
+    
+    
+    border-radius: 10px;
+    padding: 20px;
+  }
+
+  .head{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+
+  }
+ .color .red{
+width: 20px;
+height: 20px;
+background-color: red;
+border-radius: 50%;
+display: inline-block;
+  }
+ .color .yellow{
+width: 20px;
+height: 20px;
+background-color: yellow;
+border-radius: 50%;
+display: inline-block;
+  }
+ .color .green{
+width: 20px;
+height: 20px;
+background-color: green;
+border-radius: 50%;
+display: inline-block;
+  }
+
+  .home{
+    background-color: #24353F;
+  }
+
+  #welcome{
+    color: #17A2B8;
+    font-weight: 600;
+  }
+
+  .log{
+    color: #777;
+  }
+
+  .log:hover{
+    color: white;
+  }
+
+  .logo{
+    cursor: pointer;
+  }

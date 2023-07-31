@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;400;600&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600&family=Pacifico&family=Righteous&family=Roboto+Mono:ital,wght@0,200;0,300;0,500;1,400&family=Titillium+Web:wght@200;300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container py-5 text-center">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="item w-75 mx-auto p-5">
+                    <h1>Smart Login System</h1>
+                    <form>
+                        <input id="emailLog" class="form-control  mb-3 mt-4 bg-transparent" type="text" placeholder="Enter Your Email" aria-label=".form-control-lg example">
+
+                    <input id="passLog" class="form-control  bg-transparent" type="password" placeholder="Enter Your Password" aria-label=".form-control-lg example">
+                    <a href="#" id="login"  class="btn form-control btn-outline-info mb-3 mt-4">Login</a>
+                    <div class="link text-light">
+                        <span>Don’t have an account?</span>
+                        <a class="text-decoration-none text-light" href="signup.html">Sign Up</a>
+                    </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="layer ">
+        <div class="box alert alert-danger py-5">
+            <div class="head">
+                <div class="color">
+                    <span class="red"></span>
+                     <span class="yellow"></span>
+                     <span class="green"></span>
+                </div>
+                <i class="fa-solid fa-x closeEl"></i>
+            </div>
+            <div class="content">
+                <p class="fs-5 fw-bold">The email address you entered isn't connected to an account. Create a new Facebook account.</p>
+            </div>
+        </div>
+    </div>
+
+   <script src="js/bootstrap.bundle.min.js"></script> 
+   <script src="js/login.js"></script>
+</body>
+</html>
